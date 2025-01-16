@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airport Contractor Services (ACS)</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #004080;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #002040;
+        }
+        nav a {
+            color: white;
+            padding: 15px 20px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #0059b3;
+        }
+        section {
+            padding: 20px;
+        }
+        .services, .contact, .quote {
+            margin: 20px 0;
+        }
+        footer {
+            text-align: center;
+            background-color: #002040;
+            color: white;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .quote-form {
+            margin-top: 20px;
+        }
+        .quote-form label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+        .quote-form input, .quote-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .quote-form button {
+            background-color: #004080;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .quote-form button:hover {
+            background-color: #0059b3;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Airport Contractor Services</h1>
+        <p>Your trusted partner in airport operations, equipment distribution, and freight forwarding.</p>
+    </header>
+    <nav>
+        <a href="#services">Services</a>
+        <a href="#about">About Us</a>
+        <a href="#quote">Request a Quote</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li><strong>Airport Escorting Services:</strong> Professional and secure escorting solutions for airport operations.</li>
+            <li><strong>Equipment Sales:</strong> Distribution of top-tier equipment through our partnership with JBT, including Jetway passenger boarding bridges and more.</li>
+            <li><strong>Freight Forwarding:</strong> Reliable transportation of goods via air, sea, and land.</li>
+            <li><strong>Customs Brokerage:</strong> Handling import/export documentation and facilitating customs clearance.</li>
+            <li><strong>Value-Added Services:</strong> Warehousing, packaging, and specialized shipping solutions.</li>
+            <li><strong>Tracking and Reporting:</strong> Real-time shipment tracking and delivery updates.</li>
+            <li><strong>Consulting Services:</strong> Optimization of supply chains and logistics costs.</li>
+        </ul>
+    </section>
+    <section id="about">
+        <h2>About ACS</h2>
+        <p>Airport Contractor Services (ACS) provides a wide range of services, including airport escorting, equipment sales, and freight forwarding. Leveraging our expertise and partnerships, we deliver reliable and efficient solutions to meet your operational needs. We are proud to hold a DBE (Disadvantaged Business Enterprise) certification, underscoring our commitment to diversity and quality service.</p>
+    </section>
+    <section id="quote" class="quote">
+        <h2>Request a Quote</h2>
+        <p>Need a quote for freight forwarding or equipment transport? Provide your details below, and we’ll get back to you promptly.</p>
+        <form class="quote-form" action="#" method="POST">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Your Phone Number:</label>
+            <input type="tel" id="phone" name="phone">
+
+            <label for="date">Shipping Date:</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="origin">Origin:</label>
+            <input type="text" id="origin" name="origin" required>
+
+            <label for="destination">Destination:</label>
+            <input type="text" id="destination" name="destination" required>
+
+            <label for="dimensions">Load Dimensions (L x W x H) and Weight:</label>
+            <textarea id="dimensions" name="dimensions" rows="4" required></textarea>
+
+            <label for="details">Additional Details:</label>
+            <textarea id="details" name="details" rows="4"></textarea>
+
+            <button type="submit">Submit Quote Request</button>
+        </form>
+    </section>
+    <section>
+        <h2>Gallery</h2>
+        <p>Explore our operations, including equipment transport and airport services.</p>
+        <img src="images/semi_truck_jetway.jpg" alt="Semi truck with double drop stretch trailer hauling a Jetway passenger boarding bridge" style="width:100%; margin-top:20px;">
+    </section>
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions or need assistance? Contact us today!</p>
+        <address>
+            <p>Email: <a href="mailto:acsplanetservices@yahoo.com">acsplanetservices@yahoo.com</a></p>
+            <p>Phone: 407-722-1735</p>
+            <p>Location: 540 N State Rd. 434, Altamonte Springs, FL</p>
+        </address>
+    </section>
+    <footer>
+        <p>&copy; 2025 Airport Contractor Services. All rights reserved.</p>
+    </footer>
+</body>
+</html>
